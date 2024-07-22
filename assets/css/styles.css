@@ -11,6 +11,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    background: #fdfbf9;
 }
 
 
@@ -212,8 +213,9 @@ section#products {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
     flex-direction: column;
+    margin-bottom: 70px;
 }
 
 .products-container {
@@ -244,6 +246,8 @@ section#products {
     display: flex;
     align-items: center;
     gap: 45px;
+
+
 }
 
 .products-text p {
@@ -252,9 +256,260 @@ section#products {
 
 .products-text h2 {
     font-size: 30px;
+    margin-top: 8px;
 }
+
 
 .coursesbtn {
     font-size: 18px;
-    color: #4b2aad;
+    color: #351ea3;
+    font-weight: 600;
+}
+
+.coursesbtn:hover {
+    color: #20174d;
+}
+
+.bx.bx-right-arrow-alt:hover {
+    padding-left: 4px;
+    transition: 0.2s;
+}
+
+a.coursesbtn {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 181px;
+    text-align: center;
+}
+
+img.Stars {
+    width: 180px;
+    height: 23.5px;
+}
+
+.message {
+    font-size: 20px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    color: #1A1715;
+    margin-top: 8px;
+}
+
+.author {
+    font-size: 18px;
+    color: #5C5856;
+}
+
+section#downloads {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.downloads-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.downloadsimg {
+    width: 600px;
+    height: 421px;
+}
+
+
+.downloads-text p {
+    font-size: 18px;
+}
+
+.downloads-text h2 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+
+.downloadsbtn {
+    font-size: 18px;
+    color: #351ea3;
+    font-weight: 600;
+}
+
+.downloadsbtn:hover {
+    color: #20174d;
+}
+
+.bx.bx-right-arrow-alt:hover {
+    padding-left: 4px;
+    transition: 0.2s;
+}
+
+a.downloadsbtn {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+section#coaching {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.coaching-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+
+
+.coaching-text p {
+    font-size: 18px;
+}
+
+.coaching-text h2 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+section#webinars {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.webinars-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.webinars-text p {
+    font-size: 18px;
+}
+
+.webinars-text h2 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 108px;
+    margin-bottom: 108px;
+
+}
+
+.banner {
+    width: 1264px;
+    height: 289.16;
+    padding: 64px;
+    background: #201445;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+    color: #fff;
+    background: none;
+    margin: 2px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #fff;
+    background: none;
+
+}
+
+.banner-btn {
+    color: #fff;
+    background-color: #9484c6;
+}
+
+.banner-btn:hover {
+    background-color: #4b2aad;
+    transition: 0.2s;
+}
+
+footer {
+    height: 585.73;
+    width: 100%;
+    background: #f5efeb;
+    color: #1A1715;
+    font-size: 18px;
+    padding: 108px;
+}
+
+.footer-text {
+    background: transparent;
+    line-height: 2;
+    margin: 0 231.5px;
+    padding: 0 88px;
+    padding-left: 0;
+}
+
+.footer-text a {
+    background: transparent;
+    margin: 0 16px;
+    color: #5C5856;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.footer-text a:hover {
+    color: #351ea3;
+}
+
+.footer-text strong {
+    background: transparent;
+    margin: 0 16px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    margin: 0 231.5px;
+    padding: 0 88px;
+    padding-left: 0;
+    background: transparent;
+    margin-top: 30px;
+}
+
+.copyright p,
+a {
+    background: transparent;
+    align-items: center;
+    margin: 0 16px;
+    font-size: 15px;
+}
+
+.copyright a {
+    background: transparent;
+    margin: 0 16px;
+    color: #5C5856;
+    text-decoration: underline;
+}
+
+.copyright a:hover {
+    color: #351ea3;
 }
